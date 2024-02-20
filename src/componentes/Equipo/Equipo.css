@@ -1,0 +1,35 @@
+.equipo{
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 32px;
+    position: relative;
+}
+
+.input-color{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.equipo h3{
+    font-weight: 400;
+    color: #212121;
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 8px;
+
+    /* Media query para pantallas pequeñas */
+    @media screen and (max-width: 480px) {
+        font-size: 30px;
+        padding-bottom: 4px;
+    }
+}
+
+.colaboradores{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
